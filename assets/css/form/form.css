@@ -1,0 +1,21 @@
+form{
+    margin: auto;
+    margin-top: 5rem;
+    width: 20rem;
+    text-align: center;
+}
+.campo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}

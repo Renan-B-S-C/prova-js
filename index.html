@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2 class="titulo">Consultoria Empresarial</h2>
+        </div>
+    </header>
+    <table class="tabela" id="tabela">
+        <thead>
+            <th>Nome do Projeto</th>
+            <th>Descrição</th>
+            <th>Data inicio</th>
+            <th>Data conclusão</th>
+            <th>Status atual</th>
+            <th>Excluir</th>
+        </thead>
+        <tbody class="corpoT" id="corpoT">
+
+        </tbody>
+    </table>
+
+ <section class="container">
+    <h2 id="">Adicionar seu Projeto</h2>
+    <form id="form" class="form">
+        <div class="campo">
+            <label for="nome">Nome do Projeto</label>
+            <input type="text" class="nome" id="nome" placeholder="Nome do Projeto">
+        </div>
+        <div class="campo">
+            <label for="desc">Descrição</label>
+            <input type="text" class="desc" id="desc" placeholder="Descrição do projeto">
+        </div>
+        <div class="campo">
+            <label for="inicio">Data Inicio</label>
+            <input type="date" class="inicio" id="inicio" placeholder="Data Inicio">
+        </div>
+        <div class="campo">
+            <label for="conclusao">Data conclusão</label>
+            <input type="date" class="conclusao" id="conclusao" placeholder="Data Conclusão">
+        </div>
+        <div class="campo">
+            <label for="statusAtual">Status Atual</label>
+            <input type="text" class="statusAtual" id="statusAtual" placeholder="Status Atual">
+        </div>
+        <button class="enviar" id="enviar">Enviar</button>
+    </form>
+</section>
+    <script src="assets/js/Adicionar.js"></script>
+    <script src="assets/js/Remover.js"></script>
+    <script src="assets/js/date.js"></script>
+</body>
+</html>
